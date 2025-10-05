@@ -65,7 +65,7 @@ void OrientationComputer::compute(
     vector<vector<KeyPoint>> &vvKeyPointsPerLevel, 
     const vector<Mat> &vImagePerLevel
 ) {
-    // Iterate each level of the pyramid.
+    // Iterate over each level of the pyramid.
     for(int iLevel = 0; iLevel < vImagePerLevel.size(); ++iLevel) {
         // The image and keypoints at this level.
         const Mat &image = vImagePerLevel[iLevel];

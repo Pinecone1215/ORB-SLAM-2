@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.o"
   "CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o"
   "CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o"
+  "CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,11 +1,2 @@
-add_executable(testImagePyramid_00 testImagePyramid_00.cpp)
-target_link_libraries(testImagePyramid_00 myORB-SLAM2)
-
-add_executable(testKeyPointDistributorPyramid_00 testKeyPointDistributorPyramid_00.cpp)
-target_link_libraries(testKeyPointDistributorPyramid_00 myORB-SLAM2)
-
-add_executable(testKeyPointDistributorPyramid_01 testKeyPointDistributorPyramid_01.cpp)
-target_link_libraries(testKeyPointDistributorPyramid_01 myORB-SLAM2)
-
-add_executable(testKeyPointExtractorPyramid_00 testKeyPointExtractorPyramid_00.cpp)
-target_link_libraries(testKeyPointExtractorPyramid_00 myORB-SLAM2)
+add_executable(testOrientationComputer_00 testOrientationComputer_00.cpp)
+target_link_libraries(testOrientationComputer_00 myORB-SLAM2)

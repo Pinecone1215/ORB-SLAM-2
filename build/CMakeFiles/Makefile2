@@ -92,10 +92,7 @@ src/clean: src/CMakeFiles/myORB-SLAM2.dir/clean
 # Directory level rules for directory test
 
 # Recursive "all" directory target.
-test/all: test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/all
-test/all: test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/all
-test/all: test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/all
-test/all: test/CMakeFiles/testImagePyramid_00.dir/all
+test/all: test/CMakeFiles/testOrientationComputer_00.dir/all
 
 .PHONY : test/all
 
@@ -105,10 +102,7 @@ test/preinstall:
 .PHONY : test/preinstall
 
 # Recursive "clean" directory target.
-test/clean: test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/clean
-test/clean: test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/clean
-test/clean: test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/clean
-test/clean: test/CMakeFiles/testImagePyramid_00.dir/clean
+test/clean: test/CMakeFiles/testOrientationComputer_00.dir/clean
 
 .PHONY : test/clean
 
@@ -119,12 +113,12 @@ test/clean: test/CMakeFiles/testImagePyramid_00.dir/clean
 src/CMakeFiles/myORB-SLAM2.dir/all:
 	$(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/depend
 	$(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target myORB-SLAM2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target myORB-SLAM2"
 .PHONY : src/CMakeFiles/myORB-SLAM2.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/myORB-SLAM2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/myORB-SLAM2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/myORB-SLAM2.dir/rule
@@ -140,112 +134,31 @@ src/CMakeFiles/myORB-SLAM2.dir/clean:
 .PHONY : src/CMakeFiles/myORB-SLAM2.dir/clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/testKeyPointExtractorPyramid_00.dir
+# Target rules for target test/CMakeFiles/testOrientationComputer_00.dir
 
 # All Build rule for target.
-test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/all: src/CMakeFiles/myORB-SLAM2.dir/all
-	$(MAKE) -f test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/build.make test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/depend
-	$(MAKE) -f test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/build.make test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=12,13 "Built target testKeyPointExtractorPyramid_00"
-.PHONY : test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/all
+test/CMakeFiles/testOrientationComputer_00.dir/all: src/CMakeFiles/myORB-SLAM2.dir/all
+	$(MAKE) -f test/CMakeFiles/testOrientationComputer_00.dir/build.make test/CMakeFiles/testOrientationComputer_00.dir/depend
+	$(MAKE) -f test/CMakeFiles/testOrientationComputer_00.dir/build.make test/CMakeFiles/testOrientationComputer_00.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=7,8 "Built target testOrientationComputer_00"
+.PHONY : test/CMakeFiles/testOrientationComputer_00.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/all
+test/CMakeFiles/testOrientationComputer_00.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testOrientationComputer_00.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/rule
+.PHONY : test/CMakeFiles/testOrientationComputer_00.dir/rule
 
 # Convenience name for target.
-testKeyPointExtractorPyramid_00: test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/rule
+testOrientationComputer_00: test/CMakeFiles/testOrientationComputer_00.dir/rule
 
-.PHONY : testKeyPointExtractorPyramid_00
-
-# clean rule for target.
-test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/clean:
-	$(MAKE) -f test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/build.make test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/clean
-.PHONY : test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/testKeyPointDistributorPyramid_01.dir
-
-# All Build rule for target.
-test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/all: src/CMakeFiles/myORB-SLAM2.dir/all
-	$(MAKE) -f test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/build.make test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/depend
-	$(MAKE) -f test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/build.make test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=10,11 "Built target testKeyPointDistributorPyramid_01"
-.PHONY : test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/rule
-
-# Convenience name for target.
-testKeyPointDistributorPyramid_01: test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/rule
-
-.PHONY : testKeyPointDistributorPyramid_01
+.PHONY : testOrientationComputer_00
 
 # clean rule for target.
-test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/clean:
-	$(MAKE) -f test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/build.make test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/clean
-.PHONY : test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/testKeyPointDistributorPyramid_00.dir
-
-# All Build rule for target.
-test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/all: src/CMakeFiles/myORB-SLAM2.dir/all
-	$(MAKE) -f test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/build.make test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/depend
-	$(MAKE) -f test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/build.make test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=8,9 "Built target testKeyPointDistributorPyramid_00"
-.PHONY : test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/rule
-
-# Convenience name for target.
-testKeyPointDistributorPyramid_00: test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/rule
-
-.PHONY : testKeyPointDistributorPyramid_00
-
-# clean rule for target.
-test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/clean:
-	$(MAKE) -f test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/build.make test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/clean
-.PHONY : test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/testImagePyramid_00.dir
-
-# All Build rule for target.
-test/CMakeFiles/testImagePyramid_00.dir/all: src/CMakeFiles/myORB-SLAM2.dir/all
-	$(MAKE) -f test/CMakeFiles/testImagePyramid_00.dir/build.make test/CMakeFiles/testImagePyramid_00.dir/depend
-	$(MAKE) -f test/CMakeFiles/testImagePyramid_00.dir/build.make test/CMakeFiles/testImagePyramid_00.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=6,7 "Built target testImagePyramid_00"
-.PHONY : test/CMakeFiles/testImagePyramid_00.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/testImagePyramid_00.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 7
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testImagePyramid_00.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/testImagePyramid_00.dir/rule
-
-# Convenience name for target.
-testImagePyramid_00: test/CMakeFiles/testImagePyramid_00.dir/rule
-
-.PHONY : testImagePyramid_00
-
-# clean rule for target.
-test/CMakeFiles/testImagePyramid_00.dir/clean:
-	$(MAKE) -f test/CMakeFiles/testImagePyramid_00.dir/build.make test/CMakeFiles/testImagePyramid_00.dir/clean
-.PHONY : test/CMakeFiles/testImagePyramid_00.dir/clean
+test/CMakeFiles/testOrientationComputer_00.dir/clean:
+	$(MAKE) -f test/CMakeFiles/testOrientationComputer_00.dir/build.make test/CMakeFiles/testOrientationComputer_00.dir/clean
+.PHONY : test/CMakeFiles/testOrientationComputer_00.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -233,6 +233,33 @@ KeyPointsRegionalQuadTree.cpp.s:
 	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.s
 .PHONY : KeyPointsRegionalQuadTree.cpp.s
 
+OrientationComputer.o: OrientationComputer.cpp.o
+
+.PHONY : OrientationComputer.o
+
+# target to build an object file
+OrientationComputer.cpp.o:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o
+.PHONY : OrientationComputer.cpp.o
+
+OrientationComputer.i: OrientationComputer.cpp.i
+
+.PHONY : OrientationComputer.i
+
+# target to preprocess a source file
+OrientationComputer.cpp.i:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.i
+.PHONY : OrientationComputer.cpp.i
+
+OrientationComputer.s: OrientationComputer.cpp.s
+
+.PHONY : OrientationComputer.s
+
+# target to generate assembly for a file
+OrientationComputer.cpp.s:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.s
+.PHONY : OrientationComputer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -254,6 +281,9 @@ help:
 	@echo "... KeyPointsRegionalQuadTree.o"
 	@echo "... KeyPointsRegionalQuadTree.i"
 	@echo "... KeyPointsRegionalQuadTree.s"
+	@echo "... OrientationComputer.o"
+	@echo "... OrientationComputer.i"
+	@echo "... OrientationComputer.s"
 .PHONY : help
 
 

@@ -124,56 +124,17 @@ myORB-SLAM2/fast:
 .PHONY : myORB-SLAM2/fast
 
 #=============================================================================
-# Target rules for targets named testKeyPointExtractorPyramid_00
+# Target rules for targets named testOrientationComputer_00
 
 # Build rule for target.
-testKeyPointExtractorPyramid_00: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testKeyPointExtractorPyramid_00
-.PHONY : testKeyPointExtractorPyramid_00
+testOrientationComputer_00: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testOrientationComputer_00
+.PHONY : testOrientationComputer_00
 
 # fast build rule for target.
-testKeyPointExtractorPyramid_00/fast:
-	$(MAKE) -f test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/build.make test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/build
-.PHONY : testKeyPointExtractorPyramid_00/fast
-
-#=============================================================================
-# Target rules for targets named testKeyPointDistributorPyramid_01
-
-# Build rule for target.
-testKeyPointDistributorPyramid_01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testKeyPointDistributorPyramid_01
-.PHONY : testKeyPointDistributorPyramid_01
-
-# fast build rule for target.
-testKeyPointDistributorPyramid_01/fast:
-	$(MAKE) -f test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/build.make test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/build
-.PHONY : testKeyPointDistributorPyramid_01/fast
-
-#=============================================================================
-# Target rules for targets named testKeyPointDistributorPyramid_00
-
-# Build rule for target.
-testKeyPointDistributorPyramid_00: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testKeyPointDistributorPyramid_00
-.PHONY : testKeyPointDistributorPyramid_00
-
-# fast build rule for target.
-testKeyPointDistributorPyramid_00/fast:
-	$(MAKE) -f test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/build.make test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/build
-.PHONY : testKeyPointDistributorPyramid_00/fast
-
-#=============================================================================
-# Target rules for targets named testImagePyramid_00
-
-# Build rule for target.
-testImagePyramid_00: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testImagePyramid_00
-.PHONY : testImagePyramid_00
-
-# fast build rule for target.
-testImagePyramid_00/fast:
-	$(MAKE) -f test/CMakeFiles/testImagePyramid_00.dir/build.make test/CMakeFiles/testImagePyramid_00.dir/build
-.PHONY : testImagePyramid_00/fast
+testOrientationComputer_00/fast:
+	$(MAKE) -f test/CMakeFiles/testOrientationComputer_00.dir/build.make test/CMakeFiles/testOrientationComputer_00.dir/build
+.PHONY : testOrientationComputer_00/fast
 
 # Help Target
 help:
@@ -184,10 +145,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... myORB-SLAM2"
-	@echo "... testKeyPointExtractorPyramid_00"
-	@echo "... testKeyPointDistributorPyramid_01"
-	@echo "... testKeyPointDistributorPyramid_00"
-	@echo "... testImagePyramid_00"
+	@echo "... testOrientationComputer_00"
 .PHONY : help
 
 

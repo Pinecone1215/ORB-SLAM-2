@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pinecone/ORB-SLAM-2/src/KeyPointDistributorPyramid.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.o"
   "/home/pinecone/ORB-SLAM-2/src/KeyPointExtractorPyramid.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o"
   "/home/pinecone/ORB-SLAM-2/src/KeyPointsRegionalQuadTree.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o"
+  "/home/pinecone/ORB-SLAM-2/src/OrientationComputer.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

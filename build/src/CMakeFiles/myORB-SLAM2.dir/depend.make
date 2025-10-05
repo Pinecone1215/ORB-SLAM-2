@@ -14,3 +14,6 @@ src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o: ../src/KeyPointEx
 src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o: ../include/myORB-SLAM2/KeyPointsRegionalQuadTree.h
 src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o: ../src/KeyPointsRegionalQuadTree.cpp
 
+src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o: ../include/myORB-SLAM2/OrientationComputer.h
+src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o: ../src/OrientationComputer.cpp
+

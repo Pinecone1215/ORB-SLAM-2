@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../include/myORB-SLAM2/ImagePyramid.h
+../include/myORB-SLAM2/OrientationComputer.h
 vector
--
-list
--
-cstdio
 -
 opencv2/core.hpp
 -
-opencv2/imgproc.hpp
+opencv2/features2d.hpp
 -
 
-/home/pinecone/ORB-SLAM-2/src/ImagePyramid.cpp
-myORB-SLAM2/ImagePyramid.h
-/home/pinecone/ORB-SLAM-2/src/myORB-SLAM2/ImagePyramid.h
+/home/pinecone/ORB-SLAM-2/src/OrientationComputer.cpp
+myORB-SLAM2/OrientationComputer.h
+/home/pinecone/ORB-SLAM-2/src/myORB-SLAM2/OrientationComputer.h
 

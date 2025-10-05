@@ -61,8 +61,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/myORB-SLAM2.dir/DependInfo.cmake"
-  "test/CMakeFiles/testKeyPointExtractorPyramid_00.dir/DependInfo.cmake"
-  "test/CMakeFiles/testKeyPointDistributorPyramid_01.dir/DependInfo.cmake"
-  "test/CMakeFiles/testKeyPointDistributorPyramid_00.dir/DependInfo.cmake"
-  "test/CMakeFiles/testImagePyramid_00.dir/DependInfo.cmake"
+  "test/CMakeFiles/testOrientationComputer_00.dir/DependInfo.cmake"
   )
