@@ -125,6 +125,33 @@ myORB-SLAM2/fast:
 	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/build
 .PHONY : myORB-SLAM2/fast
 
+DescriptorComputer.o: DescriptorComputer.cpp.o
+
+.PHONY : DescriptorComputer.o
+
+# target to build an object file
+DescriptorComputer.cpp.o:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/DescriptorComputer.cpp.o
+.PHONY : DescriptorComputer.cpp.o
+
+DescriptorComputer.i: DescriptorComputer.cpp.i
+
+.PHONY : DescriptorComputer.i
+
+# target to preprocess a source file
+DescriptorComputer.cpp.i:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/DescriptorComputer.cpp.i
+.PHONY : DescriptorComputer.cpp.i
+
+DescriptorComputer.s: DescriptorComputer.cpp.s
+
+.PHONY : DescriptorComputer.s
+
+# target to generate assembly for a file
+DescriptorComputer.cpp.s:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/DescriptorComputer.cpp.s
+.PHONY : DescriptorComputer.cpp.s
+
 ImagePyramid.o: ImagePyramid.cpp.o
 
 .PHONY : ImagePyramid.o
@@ -269,6 +296,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... myORB-SLAM2"
+	@echo "... DescriptorComputer.o"
+	@echo "... DescriptorComputer.i"
+	@echo "... DescriptorComputer.s"
 	@echo "... ImagePyramid.o"
 	@echo "... ImagePyramid.i"
 	@echo "... ImagePyramid.s"
