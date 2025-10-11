@@ -152,6 +152,33 @@ DescriptorComputer.cpp.s:
 	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/DescriptorComputer.cpp.s
 .PHONY : DescriptorComputer.cpp.s
 
+Distributor.o: Distributor.cpp.o
+
+.PHONY : Distributor.o
+
+# target to build an object file
+Distributor.cpp.o:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o
+.PHONY : Distributor.cpp.o
+
+Distributor.i: Distributor.cpp.i
+
+.PHONY : Distributor.i
+
+# target to preprocess a source file
+Distributor.cpp.i:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.i
+.PHONY : Distributor.cpp.i
+
+Distributor.s: Distributor.cpp.s
+
+.PHONY : Distributor.s
+
+# target to generate assembly for a file
+Distributor.cpp.s:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.s
+.PHONY : Distributor.cpp.s
+
 ImagePyramid.o: ImagePyramid.cpp.o
 
 .PHONY : ImagePyramid.o
@@ -179,86 +206,32 @@ ImagePyramid.cpp.s:
 	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/ImagePyramid.cpp.s
 .PHONY : ImagePyramid.cpp.s
 
-KeyPointDistributorPyramid.o: KeyPointDistributorPyramid.cpp.o
+KeyPointExtractor.o: KeyPointExtractor.cpp.o
 
-.PHONY : KeyPointDistributorPyramid.o
-
-# target to build an object file
-KeyPointDistributorPyramid.cpp.o:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.o
-.PHONY : KeyPointDistributorPyramid.cpp.o
-
-KeyPointDistributorPyramid.i: KeyPointDistributorPyramid.cpp.i
-
-.PHONY : KeyPointDistributorPyramid.i
-
-# target to preprocess a source file
-KeyPointDistributorPyramid.cpp.i:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.i
-.PHONY : KeyPointDistributorPyramid.cpp.i
-
-KeyPointDistributorPyramid.s: KeyPointDistributorPyramid.cpp.s
-
-.PHONY : KeyPointDistributorPyramid.s
-
-# target to generate assembly for a file
-KeyPointDistributorPyramid.cpp.s:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.s
-.PHONY : KeyPointDistributorPyramid.cpp.s
-
-KeyPointExtractorPyramid.o: KeyPointExtractorPyramid.cpp.o
-
-.PHONY : KeyPointExtractorPyramid.o
+.PHONY : KeyPointExtractor.o
 
 # target to build an object file
-KeyPointExtractorPyramid.cpp.o:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o
-.PHONY : KeyPointExtractorPyramid.cpp.o
+KeyPointExtractor.cpp.o:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.o
+.PHONY : KeyPointExtractor.cpp.o
 
-KeyPointExtractorPyramid.i: KeyPointExtractorPyramid.cpp.i
+KeyPointExtractor.i: KeyPointExtractor.cpp.i
 
-.PHONY : KeyPointExtractorPyramid.i
-
-# target to preprocess a source file
-KeyPointExtractorPyramid.cpp.i:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.i
-.PHONY : KeyPointExtractorPyramid.cpp.i
-
-KeyPointExtractorPyramid.s: KeyPointExtractorPyramid.cpp.s
-
-.PHONY : KeyPointExtractorPyramid.s
-
-# target to generate assembly for a file
-KeyPointExtractorPyramid.cpp.s:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.s
-.PHONY : KeyPointExtractorPyramid.cpp.s
-
-KeyPointsRegionalQuadTree.o: KeyPointsRegionalQuadTree.cpp.o
-
-.PHONY : KeyPointsRegionalQuadTree.o
-
-# target to build an object file
-KeyPointsRegionalQuadTree.cpp.o:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o
-.PHONY : KeyPointsRegionalQuadTree.cpp.o
-
-KeyPointsRegionalQuadTree.i: KeyPointsRegionalQuadTree.cpp.i
-
-.PHONY : KeyPointsRegionalQuadTree.i
+.PHONY : KeyPointExtractor.i
 
 # target to preprocess a source file
-KeyPointsRegionalQuadTree.cpp.i:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.i
-.PHONY : KeyPointsRegionalQuadTree.cpp.i
+KeyPointExtractor.cpp.i:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.i
+.PHONY : KeyPointExtractor.cpp.i
 
-KeyPointsRegionalQuadTree.s: KeyPointsRegionalQuadTree.cpp.s
+KeyPointExtractor.s: KeyPointExtractor.cpp.s
 
-.PHONY : KeyPointsRegionalQuadTree.s
+.PHONY : KeyPointExtractor.s
 
 # target to generate assembly for a file
-KeyPointsRegionalQuadTree.cpp.s:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.s
-.PHONY : KeyPointsRegionalQuadTree.cpp.s
+KeyPointExtractor.cpp.s:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.s
+.PHONY : KeyPointExtractor.cpp.s
 
 OrientationComputer.o: OrientationComputer.cpp.o
 
@@ -287,6 +260,33 @@ OrientationComputer.cpp.s:
 	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.s
 .PHONY : OrientationComputer.cpp.s
 
+RegionalQuadTree.o: RegionalQuadTree.cpp.o
+
+.PHONY : RegionalQuadTree.o
+
+# target to build an object file
+RegionalQuadTree.cpp.o:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.o
+.PHONY : RegionalQuadTree.cpp.o
+
+RegionalQuadTree.i: RegionalQuadTree.cpp.i
+
+.PHONY : RegionalQuadTree.i
+
+# target to preprocess a source file
+RegionalQuadTree.cpp.i:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.i
+.PHONY : RegionalQuadTree.cpp.i
+
+RegionalQuadTree.s: RegionalQuadTree.cpp.s
+
+.PHONY : RegionalQuadTree.s
+
+# target to generate assembly for a file
+RegionalQuadTree.cpp.s:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.s
+.PHONY : RegionalQuadTree.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -299,21 +299,21 @@ help:
 	@echo "... DescriptorComputer.o"
 	@echo "... DescriptorComputer.i"
 	@echo "... DescriptorComputer.s"
+	@echo "... Distributor.o"
+	@echo "... Distributor.i"
+	@echo "... Distributor.s"
 	@echo "... ImagePyramid.o"
 	@echo "... ImagePyramid.i"
 	@echo "... ImagePyramid.s"
-	@echo "... KeyPointDistributorPyramid.o"
-	@echo "... KeyPointDistributorPyramid.i"
-	@echo "... KeyPointDistributorPyramid.s"
-	@echo "... KeyPointExtractorPyramid.o"
-	@echo "... KeyPointExtractorPyramid.i"
-	@echo "... KeyPointExtractorPyramid.s"
-	@echo "... KeyPointsRegionalQuadTree.o"
-	@echo "... KeyPointsRegionalQuadTree.i"
-	@echo "... KeyPointsRegionalQuadTree.s"
+	@echo "... KeyPointExtractor.o"
+	@echo "... KeyPointExtractor.i"
+	@echo "... KeyPointExtractor.s"
 	@echo "... OrientationComputer.o"
 	@echo "... OrientationComputer.i"
 	@echo "... OrientationComputer.s"
+	@echo "... RegionalQuadTree.o"
+	@echo "... RegionalQuadTree.i"
+	@echo "... RegionalQuadTree.s"
 .PHONY : help
 
 

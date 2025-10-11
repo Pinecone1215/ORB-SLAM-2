@@ -6,18 +6,18 @@
 },
 {
   "directory": "/home/pinecone/ORB-SLAM-2/build/src",
-  "command": "/usr/bin/g++  -DmyORB_SLAM2_EXPORTS -I/usr/include/eigen3 -I/home/pinecone/ORB-SLAM-2/include -I/home/pinecone/ORB-SLAM-2 -isystem /usr/local/include/opencv  -std=c++17 -O3 -O3 -DNDEBUG -fPIC   -o CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o -c /home/pinecone/ORB-SLAM-2/src/KeyPointExtractorPyramid.cpp",
-  "file": "/home/pinecone/ORB-SLAM-2/src/KeyPointExtractorPyramid.cpp"
+  "command": "/usr/bin/g++  -DmyORB_SLAM2_EXPORTS -I/usr/include/eigen3 -I/home/pinecone/ORB-SLAM-2/include -I/home/pinecone/ORB-SLAM-2 -isystem /usr/local/include/opencv  -std=c++17 -O3 -O3 -DNDEBUG -fPIC   -o CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.o -c /home/pinecone/ORB-SLAM-2/src/KeyPointExtractor.cpp",
+  "file": "/home/pinecone/ORB-SLAM-2/src/KeyPointExtractor.cpp"
 },
 {
   "directory": "/home/pinecone/ORB-SLAM-2/build/src",
-  "command": "/usr/bin/g++  -DmyORB_SLAM2_EXPORTS -I/usr/include/eigen3 -I/home/pinecone/ORB-SLAM-2/include -I/home/pinecone/ORB-SLAM-2 -isystem /usr/local/include/opencv  -std=c++17 -O3 -O3 -DNDEBUG -fPIC   -o CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o -c /home/pinecone/ORB-SLAM-2/src/KeyPointsRegionalQuadTree.cpp",
-  "file": "/home/pinecone/ORB-SLAM-2/src/KeyPointsRegionalQuadTree.cpp"
+  "command": "/usr/bin/g++  -DmyORB_SLAM2_EXPORTS -I/usr/include/eigen3 -I/home/pinecone/ORB-SLAM-2/include -I/home/pinecone/ORB-SLAM-2 -isystem /usr/local/include/opencv  -std=c++17 -O3 -O3 -DNDEBUG -fPIC   -o CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.o -c /home/pinecone/ORB-SLAM-2/src/RegionalQuadTree.cpp",
+  "file": "/home/pinecone/ORB-SLAM-2/src/RegionalQuadTree.cpp"
 },
 {
   "directory": "/home/pinecone/ORB-SLAM-2/build/src",
-  "command": "/usr/bin/g++  -DmyORB_SLAM2_EXPORTS -I/usr/include/eigen3 -I/home/pinecone/ORB-SLAM-2/include -I/home/pinecone/ORB-SLAM-2 -isystem /usr/local/include/opencv  -std=c++17 -O3 -O3 -DNDEBUG -fPIC   -o CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.o -c /home/pinecone/ORB-SLAM-2/src/KeyPointDistributorPyramid.cpp",
-  "file": "/home/pinecone/ORB-SLAM-2/src/KeyPointDistributorPyramid.cpp"
+  "command": "/usr/bin/g++  -DmyORB_SLAM2_EXPORTS -I/usr/include/eigen3 -I/home/pinecone/ORB-SLAM-2/include -I/home/pinecone/ORB-SLAM-2 -isystem /usr/local/include/opencv  -std=c++17 -O3 -O3 -DNDEBUG -fPIC   -o CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o -c /home/pinecone/ORB-SLAM-2/src/Distributor.cpp",
+  "file": "/home/pinecone/ORB-SLAM-2/src/Distributor.cpp"
 },
 {
   "directory": "/home/pinecone/ORB-SLAM-2/build/src",
@@ -31,7 +31,7 @@
 },
 {
   "directory": "/home/pinecone/ORB-SLAM-2/build/test",
-  "command": "/usr/bin/g++   -I/usr/include/eigen3 -I/home/pinecone/ORB-SLAM-2/include -I/home/pinecone/ORB-SLAM-2 -isystem /usr/local/include/opencv  -std=c++17 -O3 -O3 -DNDEBUG   -o CMakeFiles/testOrientationComputer_00.dir/testOrientationComputer_00.cpp.o -c /home/pinecone/ORB-SLAM-2/test/testOrientationComputer_00.cpp",
-  "file": "/home/pinecone/ORB-SLAM-2/test/testOrientationComputer_00.cpp"
+  "command": "/usr/bin/g++   -I/usr/include/eigen3 -I/home/pinecone/ORB-SLAM-2/include -I/home/pinecone/ORB-SLAM-2 -isystem /usr/local/include/opencv  -std=c++17 -O3 -O3 -DNDEBUG   -o CMakeFiles/testDescriptorComputer_00.dir/testDescriptorComputer_00.cpp.o -c /home/pinecone/ORB-SLAM-2/test/testDescriptorComputer_00.cpp",
+  "file": "/home/pinecone/ORB-SLAM-2/test/testDescriptorComputer_00.cpp"
 }
 ]

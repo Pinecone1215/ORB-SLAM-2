@@ -2,13 +2,15 @@
 #define DESCRIPTORCOMPUTER_H
 
 #include <cmath>
+#include <array>
+#include <opencv2/imgproc.hpp>
 #include <opencv2/features2d.hpp>
 
 using namespace cv;
 using namespace std;
 
 constexpr int NBPD = 32; // nBytesPerDescriptor
-using Descriptor = uchar[NBPD];
+typedef std::array<unsigned char, NBPD> Descriptor;
 
 namespace my_ORB_SLAM2 {
 
@@ -279,10 +281,16 @@ class DescriptorComputer {
             -1,-6, 0,-11/*mean (0.127148), correlation (0.547401)*/
         };
 
-        void computeDescriptor(
+        inline void computeDescriptor(
+            Descriptor& descriptor,
             const KeyPoint& keyPoint,
-            const Mat& image,
-            Descriptor& descriptor
+            const Mat& image
+        );
+
+        void compute(
+            vector<vector<Descriptor>> &vvDescriptorsPerLevel,
+            const vector<vector<KeyPoint>> &vvKeyPointsPerLevel,
+            const vector<Mat> &vImagePerLevel
         );
 };
 

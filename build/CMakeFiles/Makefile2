@@ -92,7 +92,7 @@ src/clean: src/CMakeFiles/myORB-SLAM2.dir/clean
 # Directory level rules for directory test
 
 # Recursive "all" directory target.
-test/all: test/CMakeFiles/testOrientationComputer_00.dir/all
+test/all: test/CMakeFiles/testDescriptorComputer_00.dir/all
 
 .PHONY : test/all
 
@@ -102,7 +102,7 @@ test/preinstall:
 .PHONY : test/preinstall
 
 # Recursive "clean" directory target.
-test/clean: test/CMakeFiles/testOrientationComputer_00.dir/clean
+test/clean: test/CMakeFiles/testDescriptorComputer_00.dir/clean
 
 .PHONY : test/clean
 
@@ -134,31 +134,31 @@ src/CMakeFiles/myORB-SLAM2.dir/clean:
 .PHONY : src/CMakeFiles/myORB-SLAM2.dir/clean
 
 #=============================================================================
-# Target rules for target test/CMakeFiles/testOrientationComputer_00.dir
+# Target rules for target test/CMakeFiles/testDescriptorComputer_00.dir
 
 # All Build rule for target.
-test/CMakeFiles/testOrientationComputer_00.dir/all: src/CMakeFiles/myORB-SLAM2.dir/all
-	$(MAKE) -f test/CMakeFiles/testOrientationComputer_00.dir/build.make test/CMakeFiles/testOrientationComputer_00.dir/depend
-	$(MAKE) -f test/CMakeFiles/testOrientationComputer_00.dir/build.make test/CMakeFiles/testOrientationComputer_00.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=8,9 "Built target testOrientationComputer_00"
-.PHONY : test/CMakeFiles/testOrientationComputer_00.dir/all
+test/CMakeFiles/testDescriptorComputer_00.dir/all: src/CMakeFiles/myORB-SLAM2.dir/all
+	$(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/depend
+	$(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=8,9 "Built target testDescriptorComputer_00"
+.PHONY : test/CMakeFiles/testDescriptorComputer_00.dir/all
 
 # Build rule for subdir invocation for target.
-test/CMakeFiles/testOrientationComputer_00.dir/rule: cmake_check_build_system
+test/CMakeFiles/testDescriptorComputer_00.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 9
-	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testOrientationComputer_00.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testDescriptorComputer_00.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pinecone/ORB-SLAM-2/build/CMakeFiles 0
-.PHONY : test/CMakeFiles/testOrientationComputer_00.dir/rule
+.PHONY : test/CMakeFiles/testDescriptorComputer_00.dir/rule
 
 # Convenience name for target.
-testOrientationComputer_00: test/CMakeFiles/testOrientationComputer_00.dir/rule
+testDescriptorComputer_00: test/CMakeFiles/testDescriptorComputer_00.dir/rule
 
-.PHONY : testOrientationComputer_00
+.PHONY : testDescriptorComputer_00
 
 # clean rule for target.
-test/CMakeFiles/testOrientationComputer_00.dir/clean:
-	$(MAKE) -f test/CMakeFiles/testOrientationComputer_00.dir/build.make test/CMakeFiles/testOrientationComputer_00.dir/clean
-.PHONY : test/CMakeFiles/testOrientationComputer_00.dir/clean
+test/CMakeFiles/testDescriptorComputer_00.dir/clean:
+	$(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/clean
+.PHONY : test/CMakeFiles/testDescriptorComputer_00.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

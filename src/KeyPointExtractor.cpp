@@ -1,4 +1,4 @@
-#include "myORB-SLAM2/KeyPointExtractorPyramid.h"
+#include "myORB-SLAM2/KeyPointExtractor.h"
 
 namespace my_ORB_SLAM2 {
     /*
@@ -10,7 +10,7 @@ namespace my_ORB_SLAM2 {
     @param[in] mnKeyPoints 總共要提取的關鍵點數量
     @param[in] miMaxTh 一開始提取關鍵點時使用的閾值
     @param[in] miMinTh 放寬標準後，提取關鍵點的閾值 */
-    KeyPointExtractorPyramid::KeyPointExtractorPyramid(int mnLevels, float mfDefaultGridSize, int mnPaddingPixels, int mnKeyPoints, int miMaxTh, int miMinTh) {
+    KeyPointExtractor::KeyPointExtractor(int mnLevels, float mfDefaultGridSize, int mnPaddingPixels, int mnKeyPoints, int miMaxTh, int miMinTh) {
         this->mnLevels = mnLevels;
         this->mfDefaultGridSize = mfDefaultGridSize;
         this->mnPaddingPixels = mnPaddingPixels;
@@ -24,14 +24,14 @@ namespace my_ORB_SLAM2 {
     
     @param[in, out] vvKeyPointsPerLevel 儲存影像金字塔中，每層影像的關鍵點
     @param[in] vImagePerLevel 影像金字塔的每一層影像 */
-    void KeyPointExtractorPyramid::extract(
+    void KeyPointExtractor::extract(
         vector<vector<KeyPoint>> &vvKeyPointsPerLevel, 
         const vector<Mat> &vImagePerLevel
     ) {
         // 設定 vvKeyPointsPerLevel 大小為影像金字塔層數
         vvKeyPointsPerLevel.resize(mnLevels);
 
-        // 遍歷每一層影像
+        // 遍歷每一層影像 #pragma omp parallel for
         for(int iLevel = 0; iLevel < mnLevels; iLevel++) {
             // 設定可提取關鍵點的邊界
             int iMinBorderX = mnPaddingPixels - 3;

@@ -5,4 +5,4 @@
 /home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir
 /home/pinecone/ORB-SLAM-2/build/test/CMakeFiles/rebuild_cache.dir
 /home/pinecone/ORB-SLAM-2/build/test/CMakeFiles/edit_cache.dir
-/home/pinecone/ORB-SLAM-2/build/test/CMakeFiles/testOrientationComputer_00.dir
+/home/pinecone/ORB-SLAM-2/build/test/CMakeFiles/testDescriptorComputer_00.dir

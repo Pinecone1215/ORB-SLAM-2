@@ -111,46 +111,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/testOrientationComputer_00.dir/rule:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testOrientationComputer_00.dir/rule
-.PHONY : test/CMakeFiles/testOrientationComputer_00.dir/rule
+test/CMakeFiles/testDescriptorComputer_00.dir/rule:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testDescriptorComputer_00.dir/rule
+.PHONY : test/CMakeFiles/testDescriptorComputer_00.dir/rule
 
 # Convenience name for target.
-testOrientationComputer_00: test/CMakeFiles/testOrientationComputer_00.dir/rule
+testDescriptorComputer_00: test/CMakeFiles/testDescriptorComputer_00.dir/rule
 
-.PHONY : testOrientationComputer_00
+.PHONY : testDescriptorComputer_00
 
 # fast build rule for target.
-testOrientationComputer_00/fast:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testOrientationComputer_00.dir/build.make test/CMakeFiles/testOrientationComputer_00.dir/build
-.PHONY : testOrientationComputer_00/fast
+testDescriptorComputer_00/fast:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/build
+.PHONY : testDescriptorComputer_00/fast
 
-testOrientationComputer_00.o: testOrientationComputer_00.cpp.o
+testDescriptorComputer_00.o: testDescriptorComputer_00.cpp.o
 
-.PHONY : testOrientationComputer_00.o
+.PHONY : testDescriptorComputer_00.o
 
 # target to build an object file
-testOrientationComputer_00.cpp.o:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testOrientationComputer_00.dir/build.make test/CMakeFiles/testOrientationComputer_00.dir/testOrientationComputer_00.cpp.o
-.PHONY : testOrientationComputer_00.cpp.o
+testDescriptorComputer_00.cpp.o:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/testDescriptorComputer_00.cpp.o
+.PHONY : testDescriptorComputer_00.cpp.o
 
-testOrientationComputer_00.i: testOrientationComputer_00.cpp.i
+testDescriptorComputer_00.i: testDescriptorComputer_00.cpp.i
 
-.PHONY : testOrientationComputer_00.i
+.PHONY : testDescriptorComputer_00.i
 
 # target to preprocess a source file
-testOrientationComputer_00.cpp.i:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testOrientationComputer_00.dir/build.make test/CMakeFiles/testOrientationComputer_00.dir/testOrientationComputer_00.cpp.i
-.PHONY : testOrientationComputer_00.cpp.i
+testDescriptorComputer_00.cpp.i:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/testDescriptorComputer_00.cpp.i
+.PHONY : testDescriptorComputer_00.cpp.i
 
-testOrientationComputer_00.s: testOrientationComputer_00.cpp.s
+testDescriptorComputer_00.s: testDescriptorComputer_00.cpp.s
 
-.PHONY : testOrientationComputer_00.s
+.PHONY : testDescriptorComputer_00.s
 
 # target to generate assembly for a file
-testOrientationComputer_00.cpp.s:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testOrientationComputer_00.dir/build.make test/CMakeFiles/testOrientationComputer_00.dir/testOrientationComputer_00.cpp.s
-.PHONY : testOrientationComputer_00.cpp.s
+testDescriptorComputer_00.cpp.s:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/testDescriptorComputer_00.cpp.s
+.PHONY : testDescriptorComputer_00.cpp.s
 
 # Help Target
 help:
@@ -160,10 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... testOrientationComputer_00"
-	@echo "... testOrientationComputer_00.o"
-	@echo "... testOrientationComputer_00.i"
-	@echo "... testOrientationComputer_00.s"
+	@echo "... testDescriptorComputer_00"
+	@echo "... testDescriptorComputer_00.o"
+	@echo "... testDescriptorComputer_00.i"
+	@echo "... testDescriptorComputer_00.s"
 .PHONY : help
 
 

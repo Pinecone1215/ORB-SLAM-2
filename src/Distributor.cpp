@@ -1,4 +1,4 @@
-#include "myORB-SLAM2/KeyPointDistributorPyramid.h"
+#include "myORB-SLAM2/Distributor.h"
 
 namespace my_ORB_SLAM2 {
     /*
@@ -8,7 +8,7 @@ namespace my_ORB_SLAM2 {
     @param[in] vvKeyPointsPerLevel 對應於影像金字塔中每一層的關鍵點
     @param[in] vnFeaturesPerLevel 對應於影像金字塔中每一層的待提取關鍵點數
     @param[in] vImagePerLevel 影像金字塔中每一層的影像 */
-    void KeyPointDistributorPyramid::distribute(
+    void Distributor::distribute(
         vector<vector<KeyPoint>> &vvDistributedKeyPointsPerLevel,
         vector<vector<KeyPoint>> &vvKeyPointsPerLevel, 
         vector<int> &vnFeaturesPerLevel,
@@ -25,12 +25,12 @@ namespace my_ORB_SLAM2 {
             iWidth = vImagePerLevel[iLevel].cols;
             iHeight = vImagePerLevel[iLevel].rows;
             vector<KeyPoint> &vKeyPoints = vvKeyPointsPerLevel[iLevel];
-            KeyPointsRegionalQuadTree quadTree(iWidth, iHeight, vKeyPoints);
+            RegionalQuadTree quadTree(iWidth, iHeight, vKeyPoints);
 
             // 開始分裂四叉樹節點
             while(true) {
                 // 取得四叉樹的 Nodes 迭代器
-                list<KeyPointsRegionalQuadTreeNode>::iterator lit = 
+                list<RegionalQuadTreeNode>::iterator lit = 
                 quadTree.mlNodes.begin();
 
                 // 計算目前有幾個 Node 可以分裂
@@ -60,7 +60,7 @@ namespace my_ORB_SLAM2 {
                     bool bComplete = false;
 
                     // 先依照關鍵點數量由大到小排序
-                    quadTree.mlNodes.sort([](const KeyPointsRegionalQuadTreeNode &n1, const KeyPointsRegionalQuadTreeNode &n2) { return n1.mvpKeyPoints.size() > n2.mvpKeyPoints.size();});
+                    quadTree.mlNodes.sort([](const RegionalQuadTreeNode &n1, const RegionalQuadTreeNode &n2) { return n1.mvpKeyPoints.size() > n2.mvpKeyPoints.size();});
                     
                     // 從最多關鍵點的 Node 開始分裂
                     lit = quadTree.mlNodes.begin();
@@ -81,7 +81,7 @@ namespace my_ORB_SLAM2 {
 
             // 預先分配該層關鍵點的記憶體空間
             vvDistributedKeyPointsPerLevel[iLevel].reserve(quadTree.mlNodes.size());
-            for(KeyPointsRegionalQuadTreeNode &node : quadTree.mlNodes) {
+            for(RegionalQuadTreeNode &node : quadTree.mlNodes) {
                 // 取得該 Node 中品質最耗好的關鍵點
                 float fMaxResponse = -INFINITY;
                 KeyPoint* pKeyPoint = nullptr;

@@ -5,11 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pinecone/ORB-SLAM-2/src/DescriptorComputer.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/DescriptorComputer.cpp.o"
+  "/home/pinecone/ORB-SLAM-2/src/Distributor.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o"
   "/home/pinecone/ORB-SLAM-2/src/ImagePyramid.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/ImagePyramid.cpp.o"
-  "/home/pinecone/ORB-SLAM-2/src/KeyPointDistributorPyramid.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.o"
-  "/home/pinecone/ORB-SLAM-2/src/KeyPointExtractorPyramid.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o"
-  "/home/pinecone/ORB-SLAM-2/src/KeyPointsRegionalQuadTree.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o"
+  "/home/pinecone/ORB-SLAM-2/src/KeyPointExtractor.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.o"
   "/home/pinecone/ORB-SLAM-2/src/OrientationComputer.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o"
+  "/home/pinecone/ORB-SLAM-2/src/RegionalQuadTree.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -2,9 +2,9 @@
 add_library(
     myORB-SLAM2 SHARED
     ImagePyramid.cpp
-    KeyPointExtractorPyramid.cpp
-    KeyPointsRegionalQuadTree.cpp
-    KeyPointDistributorPyramid.cpp
+    KeyPointExtractor.cpp
+    RegionalQuadTree.cpp
+    Distributor.cpp
     OrientationComputer.cpp
     DescriptorComputer.cpp
 )

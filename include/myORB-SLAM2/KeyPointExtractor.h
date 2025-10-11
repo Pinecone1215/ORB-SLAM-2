@@ -10,7 +10,7 @@ using namespace std;
 
 namespace my_ORB_SLAM2 {
 
-class KeyPointExtractorPyramid {
+class KeyPointExtractor {
     public:
         /*
         @brief 影像金字塔概念的關鍵點提取器
@@ -21,8 +21,8 @@ class KeyPointExtractorPyramid {
         @param[in] mnKeyPoints 總共要提取的關鍵點數量
         @param[in] miMaxTh 一開始提取關鍵點時使用的閾值
         @param[in] miMinTh 放寬標準後，提取關鍵點的閾值 */
-        KeyPointExtractorPyramid(int mnLevels, float mfDefaultGridSize, int mnPaddingPixels, int mnKeyPoints, int miMaxTh, int miMinTh);
-        ~KeyPointExtractorPyramid() {};
+        KeyPointExtractor(int mnLevels, float mfDefaultGridSize, int mnPaddingPixels, int mnKeyPoints, int miMaxTh, int miMinTh);
+        ~KeyPointExtractor() {};
 
         /*
         @brief 提取關鍵點的 function

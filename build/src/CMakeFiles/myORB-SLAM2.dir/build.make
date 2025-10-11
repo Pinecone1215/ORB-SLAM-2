@@ -70,44 +70,44 @@ src/CMakeFiles/myORB-SLAM2.dir/ImagePyramid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myORB-SLAM2.dir/ImagePyramid.cpp.s"
 	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pinecone/ORB-SLAM-2/src/ImagePyramid.cpp -o CMakeFiles/myORB-SLAM2.dir/ImagePyramid.cpp.s
 
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o: src/CMakeFiles/myORB-SLAM2.dir/flags.make
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o: ../src/KeyPointExtractorPyramid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o"
-	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o -c /home/pinecone/ORB-SLAM-2/src/KeyPointExtractorPyramid.cpp
+src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.o: src/CMakeFiles/myORB-SLAM2.dir/flags.make
+src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.o: ../src/KeyPointExtractor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.o"
+	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.o -c /home/pinecone/ORB-SLAM-2/src/KeyPointExtractor.cpp
 
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.i"
-	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pinecone/ORB-SLAM-2/src/KeyPointExtractorPyramid.cpp > CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.i
+src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.i"
+	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pinecone/ORB-SLAM-2/src/KeyPointExtractor.cpp > CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.i
 
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.s"
-	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pinecone/ORB-SLAM-2/src/KeyPointExtractorPyramid.cpp -o CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.s
+src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.s"
+	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pinecone/ORB-SLAM-2/src/KeyPointExtractor.cpp -o CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.s
 
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o: src/CMakeFiles/myORB-SLAM2.dir/flags.make
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o: ../src/KeyPointsRegionalQuadTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o"
-	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o -c /home/pinecone/ORB-SLAM-2/src/KeyPointsRegionalQuadTree.cpp
+src/CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.o: src/CMakeFiles/myORB-SLAM2.dir/flags.make
+src/CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.o: ../src/RegionalQuadTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.o"
+	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.o -c /home/pinecone/ORB-SLAM-2/src/RegionalQuadTree.cpp
 
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.i"
-	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pinecone/ORB-SLAM-2/src/KeyPointsRegionalQuadTree.cpp > CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.i
+src/CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.i"
+	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pinecone/ORB-SLAM-2/src/RegionalQuadTree.cpp > CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.i
 
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.s"
-	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pinecone/ORB-SLAM-2/src/KeyPointsRegionalQuadTree.cpp -o CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.s
+src/CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.s"
+	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pinecone/ORB-SLAM-2/src/RegionalQuadTree.cpp -o CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.s
 
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.o: src/CMakeFiles/myORB-SLAM2.dir/flags.make
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.o: ../src/KeyPointDistributorPyramid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.o"
-	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.o -c /home/pinecone/ORB-SLAM-2/src/KeyPointDistributorPyramid.cpp
+src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o: src/CMakeFiles/myORB-SLAM2.dir/flags.make
+src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o: ../src/Distributor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pinecone/ORB-SLAM-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o"
+	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o -c /home/pinecone/ORB-SLAM-2/src/Distributor.cpp
 
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.i"
-	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pinecone/ORB-SLAM-2/src/KeyPointDistributorPyramid.cpp > CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.i
+src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.i"
+	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pinecone/ORB-SLAM-2/src/Distributor.cpp > CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.i
 
-src/CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.s"
-	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pinecone/ORB-SLAM-2/src/KeyPointDistributorPyramid.cpp -o CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.s
+src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.s"
+	cd /home/pinecone/ORB-SLAM-2/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pinecone/ORB-SLAM-2/src/Distributor.cpp -o CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.s
 
 src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o: src/CMakeFiles/myORB-SLAM2.dir/flags.make
 src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o: ../src/OrientationComputer.cpp
@@ -138,9 +138,9 @@ src/CMakeFiles/myORB-SLAM2.dir/DescriptorComputer.cpp.s: cmake_force
 # Object files for target myORB-SLAM2
 myORB__SLAM2_OBJECTS = \
 "CMakeFiles/myORB-SLAM2.dir/ImagePyramid.cpp.o" \
-"CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o" \
-"CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o" \
-"CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.o" \
+"CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.o" \
+"CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.o" \
+"CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o" \
 "CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o" \
 "CMakeFiles/myORB-SLAM2.dir/DescriptorComputer.cpp.o"
 
@@ -148,9 +148,9 @@ myORB__SLAM2_OBJECTS = \
 myORB__SLAM2_EXTERNAL_OBJECTS =
 
 ../lib/libmyORB-SLAM2.so: src/CMakeFiles/myORB-SLAM2.dir/ImagePyramid.cpp.o
-../lib/libmyORB-SLAM2.so: src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractorPyramid.cpp.o
-../lib/libmyORB-SLAM2.so: src/CMakeFiles/myORB-SLAM2.dir/KeyPointsRegionalQuadTree.cpp.o
-../lib/libmyORB-SLAM2.so: src/CMakeFiles/myORB-SLAM2.dir/KeyPointDistributorPyramid.cpp.o
+../lib/libmyORB-SLAM2.so: src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.o
+../lib/libmyORB-SLAM2.so: src/CMakeFiles/myORB-SLAM2.dir/RegionalQuadTree.cpp.o
+../lib/libmyORB-SLAM2.so: src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o
 ../lib/libmyORB-SLAM2.so: src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o
 ../lib/libmyORB-SLAM2.so: src/CMakeFiles/myORB-SLAM2.dir/DescriptorComputer.cpp.o
 ../lib/libmyORB-SLAM2.so: src/CMakeFiles/myORB-SLAM2.dir/build.make

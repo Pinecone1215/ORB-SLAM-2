@@ -1,16 +1,16 @@
-#ifndef KEYPOINTDISTRIBUTOR
-#define KEYPOINTDISTRIBUTOR
+#ifndef DISTRIBUTOR_H
+#define DISTRIBUTOR_H
 
-#include "myORB-SLAM2/KeyPointsRegionalQuadTree.h"
+#include "myORB-SLAM2/RegionalQuadTree.h"
 
 namespace my_ORB_SLAM2 {
 
-class KeyPointDistributorPyramid {
+class Distributor {
     public:
         /*
         @brief 影像金字塔概念的關鍵點均勻器  */
-        KeyPointDistributorPyramid() {};
-        ~KeyPointDistributorPyramid() {};
+        Distributor() {};
+        ~Distributor() {};
 
         /*
         @brief 用於均勻化，對應於影像金字塔中每一層的關鍵點

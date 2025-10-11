@@ -1,4 +1,4 @@
-#include <myORB-SLAM2/KeyPointsRegionalQuadTree.h>
+#include <myORB-SLAM2/RegionalQuadTree.h>
 
 namespace my_ORB_SLAM2 {
     /*
@@ -7,7 +7,7 @@ namespace my_ORB_SLAM2 {
     @param[in] iWidth 影像寬度 
     @param[in] iHeight 影像高度 
     @param[in] vKeyPoints 關鍵點 */
-    KeyPointsRegionalQuadTree::KeyPointsRegionalQuadTree(int iWidth, int iHeight, vector<KeyPoint> &vKeyPoints):
+    RegionalQuadTree::RegionalQuadTree(int iWidth, int iHeight, vector<KeyPoint> &vKeyPoints):
     mvKeyPoints(vKeyPoints) {
         // 取得總體的關鍵點數量
         int nKeyPoints = mvKeyPoints.size();
@@ -16,7 +16,7 @@ namespace my_ORB_SLAM2 {
         if(nKeyPoints >= 1) {
             // 設定該四叉樹的第一個 Node
             mlNodes.resize(1);
-            KeyPointsRegionalQuadTreeNode &node = mlNodes.front();
+            RegionalQuadTreeNode &node = mlNodes.front();
 
             // 設定該 Node 的 Box 座標
             node.miMinX = 0;
@@ -43,13 +43,13 @@ namespace my_ORB_SLAM2 {
     @brief 根據指定的迭代器，分裂對應的節點 
         
     @param[in] lNodesIterator 指定要分裂的節點的迭代器 */
-    list<KeyPointsRegionalQuadTreeNode>::iterator 
-    KeyPointsRegionalQuadTree::divide(list<KeyPointsRegionalQuadTreeNode>::iterator &lNodesIterator) {
+    list<RegionalQuadTreeNode>::iterator 
+    RegionalQuadTree::divide(list<RegionalQuadTreeNode>::iterator &lNodesIterator) {
         // 如果該 Node 只有一個關鍵點，就直接去下一個 Node
         if(lNodesIterator->mbLocked) { return ++lNodesIterator; }
         
         // 根據父節點座標分割出四個子傑點，並計算它們的 Box 座標
-        KeyPointsRegionalQuadTreeNode node00, node01, node10, node11;
+        RegionalQuadTreeNode node00, node01, node10, node11;
         node00.miMinX = lNodesIterator->miMinX; 
         node00.miMinY = lNodesIterator->miMinY; 
         node00.miMaxX = lNodesIterator->miMidX; 
