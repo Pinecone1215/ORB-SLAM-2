@@ -9,19 +9,31 @@
 using namespace cv;
 using namespace std;
 
-constexpr int NBPD = 32; // nBytesPerDescriptor
+/*
+The number of bytes in a descriptor
+Notes: 'constexpr' ensures that this variable is known at compile time.*/
+constexpr int NBPD = 32;
+
+// Define the 32-byte Descriptor data type.
 typedef std::array<unsigned char, NBPD> Descriptor;
 
 namespace my_ORB_SLAM2 {
 
 class DescriptorComputer {
     public:
+        // Empty constructor
         DescriptorComputer() {};
         ~DescriptorComputer() {};
 
-        int mnBytesPerDescriptor = (int)NBPD;
+        // The number of bytes in a descriptor
+        int mnBytesPerDescriptor = NBPD;
+
+        // Factor to convert degrees to radians
         float mfDeg2Rad = (float)(CV_PI / 180.f);
 
+        /*
+        This array stores 256 pairs of points. We just use it to generate a 256-bit 
+        descriptor by performing a comparison on each pair.*/
         int mPattern[256 * 4] = {
             8,-3, 9,5/*mean (0), correlation (0)*/,
             4,2, 7,-12/*mean (1.12461e-05), correlation (0.0437584)*/,
@@ -281,12 +293,24 @@ class DescriptorComputer {
             -1,-6, 0,-11/*mean (0.127148), correlation (0.547401)*/
         };
 
+        /*
+        @brief Compute a descriptor for a keypoint based on its image.
+        
+        @param[in, out] descriptor: The 256-bit descriptor to be written.
+        @param[in] keyPoint: The keypoint used to compute the descriptor based on its coordinates. 
+        @param[in] image: The image that contains the keypoint mentioned above. */
         inline void computeDescriptor(
             Descriptor& descriptor,
             const KeyPoint& keyPoint,
             const Mat& image
         );
 
+        /*
+        @brief Compute the descriptors for all the keypoints in the image pyramid.
+        
+        @param[in, out] vvDescriptorsPerLevel: Stores all the descriptors at each pyramid level.
+        @param[in] vvKeyPointsPerLevel: Stores all the keypoints at each pyramid level.
+        @param[in] vImagePerLevel: Stores all the images at each pyramid level. */
         void compute(
             vector<vector<Descriptor>> &vvDescriptorsPerLevel,
             const vector<vector<KeyPoint>> &vvKeyPointsPerLevel,
@@ -295,8 +319,5 @@ class DescriptorComputer {
 };
 
 } // my_ORB_SLAM2
-
-#undef NBPD
-#undef Descriptor
 
 #endif
