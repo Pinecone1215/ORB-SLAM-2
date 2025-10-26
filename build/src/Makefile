@@ -179,6 +179,33 @@ Distributor.cpp.s:
 	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.s
 .PHONY : Distributor.cpp.s
 
+Frame.o: Frame.cpp.o
+
+.PHONY : Frame.o
+
+# target to build an object file
+Frame.cpp.o:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/Frame.cpp.o
+.PHONY : Frame.cpp.o
+
+Frame.i: Frame.cpp.i
+
+.PHONY : Frame.i
+
+# target to preprocess a source file
+Frame.cpp.i:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/Frame.cpp.i
+.PHONY : Frame.cpp.i
+
+Frame.s: Frame.cpp.s
+
+.PHONY : Frame.s
+
+# target to generate assembly for a file
+Frame.cpp.s:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f src/CMakeFiles/myORB-SLAM2.dir/build.make src/CMakeFiles/myORB-SLAM2.dir/Frame.cpp.s
+.PHONY : Frame.cpp.s
+
 ImagePyramid.o: ImagePyramid.cpp.o
 
 .PHONY : ImagePyramid.o
@@ -302,6 +329,9 @@ help:
 	@echo "... Distributor.o"
 	@echo "... Distributor.i"
 	@echo "... Distributor.s"
+	@echo "... Frame.o"
+	@echo "... Frame.i"
+	@echo "... Frame.s"
 	@echo "... ImagePyramid.o"
 	@echo "... ImagePyramid.i"
 	@echo "... ImagePyramid.s"

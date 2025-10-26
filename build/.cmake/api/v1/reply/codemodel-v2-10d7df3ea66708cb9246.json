@@ -70,15 +70,15 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "myORB-SLAM2::@145eef247bfb46b6828c",
-					"jsonFile" : "target-myORB-SLAM2-Release-8110c1840dbcdd733d1d.json",
+					"jsonFile" : "target-myORB-SLAM2-Release-229305d48c93eb027893.json",
 					"name" : "myORB-SLAM2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "testDescriptorComputer_00::@36f028580bb02cc8272a",
-					"jsonFile" : "target-testDescriptorComputer_00-Release-164a6e502083ce25d5fc.json",
-					"name" : "testDescriptorComputer_00",
+					"id" : "testFrame_00::@36f028580bb02cc8272a",
+					"jsonFile" : "target-testFrame_00-Release-0d5ebf112dd574e62d4a.json",
+					"name" : "testFrame_00",
 					"projectIndex" : 0
 				}
 			]

@@ -1,2 +1,2 @@
-add_executable(testDescriptorComputer_00 testDescriptorComputer_00.cpp)
-target_link_libraries(testDescriptorComputer_00 myORB-SLAM2)
+add_executable(testFrame_00 testFrame_00.cpp)
+target_link_libraries(testFrame_00 myORB-SLAM2)

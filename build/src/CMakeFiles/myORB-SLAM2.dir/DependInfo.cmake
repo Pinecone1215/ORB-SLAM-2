@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pinecone/ORB-SLAM-2/src/DescriptorComputer.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/DescriptorComputer.cpp.o"
   "/home/pinecone/ORB-SLAM-2/src/Distributor.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o"
+  "/home/pinecone/ORB-SLAM-2/src/Frame.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/Frame.cpp.o"
   "/home/pinecone/ORB-SLAM-2/src/ImagePyramid.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/ImagePyramid.cpp.o"
   "/home/pinecone/ORB-SLAM-2/src/KeyPointExtractor.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.o"
   "/home/pinecone/ORB-SLAM-2/src/OrientationComputer.cpp" "/home/pinecone/ORB-SLAM-2/build/src/CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o"

@@ -124,17 +124,17 @@ myORB-SLAM2/fast:
 .PHONY : myORB-SLAM2/fast
 
 #=============================================================================
-# Target rules for targets named testDescriptorComputer_00
+# Target rules for targets named testFrame_00
 
 # Build rule for target.
-testDescriptorComputer_00: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testDescriptorComputer_00
-.PHONY : testDescriptorComputer_00
+testFrame_00: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testFrame_00
+.PHONY : testFrame_00
 
 # fast build rule for target.
-testDescriptorComputer_00/fast:
-	$(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/build
-.PHONY : testDescriptorComputer_00/fast
+testFrame_00/fast:
+	$(MAKE) -f test/CMakeFiles/testFrame_00.dir/build.make test/CMakeFiles/testFrame_00.dir/build
+.PHONY : testFrame_00/fast
 
 # Help Target
 help:
@@ -145,7 +145,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... myORB-SLAM2"
-	@echo "... testDescriptorComputer_00"
+	@echo "... testFrame_00"
 .PHONY : help
 
 

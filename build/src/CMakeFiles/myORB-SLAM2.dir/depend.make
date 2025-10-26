@@ -8,6 +8,9 @@ src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o: ../include/myORB-SLAM2/Distrib
 src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o: ../include/myORB-SLAM2/RegionalQuadTree.h
 src/CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o: ../src/Distributor.cpp
 
+src/CMakeFiles/myORB-SLAM2.dir/Frame.cpp.o: ../include/myORB-SLAM2/Frame.h
+src/CMakeFiles/myORB-SLAM2.dir/Frame.cpp.o: ../src/Frame.cpp
+
 src/CMakeFiles/myORB-SLAM2.dir/ImagePyramid.cpp.o: ../include/myORB-SLAM2/ImagePyramid.h
 src/CMakeFiles/myORB-SLAM2.dir/ImagePyramid.cpp.o: ../src/ImagePyramid.cpp
 

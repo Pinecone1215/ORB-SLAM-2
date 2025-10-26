@@ -6,45 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/myORB-SLAM2/Distributor.h
-myORB-SLAM2/RegionalQuadTree.h
-../include/myORB-SLAM2/myORB-SLAM2/RegionalQuadTree.h
-
-../include/myORB-SLAM2/KeyPointExtractor.h
-vector
--
+../include/myORB-SLAM2/Frame.h
 opencv2/features2d.hpp
 -
-
-../include/myORB-SLAM2/OrientationComputer.h
-vector
--
-opencv2/core.hpp
--
-opencv2/features2d.hpp
+chrono
 -
 
-../include/myORB-SLAM2/RegionalQuadTree.h
-list
--
-vector
--
-opencv2/features2d.hpp
--
-
-/home/pinecone/ORB-SLAM-2/src/Distributor.cpp
-myORB-SLAM2/Distributor.h
-/home/pinecone/ORB-SLAM-2/src/myORB-SLAM2/Distributor.h
-
-/home/pinecone/ORB-SLAM-2/src/KeyPointExtractor.cpp
-myORB-SLAM2/KeyPointExtractor.h
-/home/pinecone/ORB-SLAM-2/src/myORB-SLAM2/KeyPointExtractor.h
-
-/home/pinecone/ORB-SLAM-2/src/OrientationComputer.cpp
-myORB-SLAM2/OrientationComputer.h
-/home/pinecone/ORB-SLAM-2/src/myORB-SLAM2/OrientationComputer.h
-
-/home/pinecone/ORB-SLAM-2/src/RegionalQuadTree.cpp
-myORB-SLAM2/RegionalQuadTree.h
--
+/home/pinecone/ORB-SLAM-2/src/Frame.cpp
+myORB-SLAM2/Frame.h
+/home/pinecone/ORB-SLAM-2/src/myORB-SLAM2/Frame.h
 

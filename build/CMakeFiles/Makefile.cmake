@@ -61,5 +61,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/myORB-SLAM2.dir/DependInfo.cmake"
-  "test/CMakeFiles/testDescriptorComputer_00.dir/DependInfo.cmake"
+  "test/CMakeFiles/testFrame_00.dir/DependInfo.cmake"
   )

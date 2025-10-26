@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "../../lib/libmyORB-SLAM2.so"
   "CMakeFiles/myORB-SLAM2.dir/DescriptorComputer.cpp.o"
   "CMakeFiles/myORB-SLAM2.dir/Distributor.cpp.o"
+  "CMakeFiles/myORB-SLAM2.dir/Frame.cpp.o"
   "CMakeFiles/myORB-SLAM2.dir/ImagePyramid.cpp.o"
   "CMakeFiles/myORB-SLAM2.dir/KeyPointExtractor.cpp.o"
   "CMakeFiles/myORB-SLAM2.dir/OrientationComputer.cpp.o"

@@ -111,46 +111,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/testDescriptorComputer_00.dir/rule:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testDescriptorComputer_00.dir/rule
-.PHONY : test/CMakeFiles/testDescriptorComputer_00.dir/rule
+test/CMakeFiles/testFrame_00.dir/rule:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testFrame_00.dir/rule
+.PHONY : test/CMakeFiles/testFrame_00.dir/rule
 
 # Convenience name for target.
-testDescriptorComputer_00: test/CMakeFiles/testDescriptorComputer_00.dir/rule
+testFrame_00: test/CMakeFiles/testFrame_00.dir/rule
 
-.PHONY : testDescriptorComputer_00
+.PHONY : testFrame_00
 
 # fast build rule for target.
-testDescriptorComputer_00/fast:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/build
-.PHONY : testDescriptorComputer_00/fast
+testFrame_00/fast:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testFrame_00.dir/build.make test/CMakeFiles/testFrame_00.dir/build
+.PHONY : testFrame_00/fast
 
-testDescriptorComputer_00.o: testDescriptorComputer_00.cpp.o
+testFrame_00.o: testFrame_00.cpp.o
 
-.PHONY : testDescriptorComputer_00.o
+.PHONY : testFrame_00.o
 
 # target to build an object file
-testDescriptorComputer_00.cpp.o:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/testDescriptorComputer_00.cpp.o
-.PHONY : testDescriptorComputer_00.cpp.o
+testFrame_00.cpp.o:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testFrame_00.dir/build.make test/CMakeFiles/testFrame_00.dir/testFrame_00.cpp.o
+.PHONY : testFrame_00.cpp.o
 
-testDescriptorComputer_00.i: testDescriptorComputer_00.cpp.i
+testFrame_00.i: testFrame_00.cpp.i
 
-.PHONY : testDescriptorComputer_00.i
+.PHONY : testFrame_00.i
 
 # target to preprocess a source file
-testDescriptorComputer_00.cpp.i:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/testDescriptorComputer_00.cpp.i
-.PHONY : testDescriptorComputer_00.cpp.i
+testFrame_00.cpp.i:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testFrame_00.dir/build.make test/CMakeFiles/testFrame_00.dir/testFrame_00.cpp.i
+.PHONY : testFrame_00.cpp.i
 
-testDescriptorComputer_00.s: testDescriptorComputer_00.cpp.s
+testFrame_00.s: testFrame_00.cpp.s
 
-.PHONY : testDescriptorComputer_00.s
+.PHONY : testFrame_00.s
 
 # target to generate assembly for a file
-testDescriptorComputer_00.cpp.s:
-	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testDescriptorComputer_00.dir/build.make test/CMakeFiles/testDescriptorComputer_00.dir/testDescriptorComputer_00.cpp.s
-.PHONY : testDescriptorComputer_00.cpp.s
+testFrame_00.cpp.s:
+	cd /home/pinecone/ORB-SLAM-2/build && $(MAKE) -f test/CMakeFiles/testFrame_00.dir/build.make test/CMakeFiles/testFrame_00.dir/testFrame_00.cpp.s
+.PHONY : testFrame_00.cpp.s
 
 # Help Target
 help:
@@ -160,10 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... testDescriptorComputer_00"
-	@echo "... testDescriptorComputer_00.o"
-	@echo "... testDescriptorComputer_00.i"
-	@echo "... testDescriptorComputer_00.s"
+	@echo "... testFrame_00"
+	@echo "... testFrame_00.o"
+	@echo "... testFrame_00.i"
+	@echo "... testFrame_00.s"
 .PHONY : help
 
 
